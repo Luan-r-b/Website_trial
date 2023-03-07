@@ -1,0 +1,12 @@
+1-select id from exames
+where idioma_id=1 and
+where data='2023-03-20';
+
+2-select cpf from candiddatos 
+where nome='João Silva';
+
+3-insert into inscricoes(id, candidato_cpf, data, exames_id, boleto, status) values (7, '123.456.789-10', '2023-03-20',  764564, null, 1)
+
+4-update candiddatos
+set email='ana.souza@example.com'
+where nome='Ana Souza';

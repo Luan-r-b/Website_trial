@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+        <div class="header">
+
+            <div>
+                    <img id="bandeira" src="brasil.jpg" alt="Bandeira brasil">
+                
+                    <p><span id="data"></span></p>
+                    <script>
+                        var dt = new Date();
+                        const month = ["Janeiro","Fevereiro","Março","Abrio","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+                        document.getElementById("data").innerHTML = + (("0"+dt.getDate()).slice(-2)) +" de "+ month[dt.getMonth()] +" de "+ (dt.getFullYear());
+                        </script>
+            </div>
+
+                <div id="info_header">
+                    <p>Horário de Funcionamento: de segunda a sexta das 8h às 18h <img id="phone_symbol" src="phone-solid.svg" alt="Tel"> (48)3721-9339 <img id="envelope_symbol" src="envelope-solid.svg" alt="E-Mail"> <a href="mailto:secretaria.ctc@contato.ufsc.br">secretaria.ctc@contato.ufsc.br</a> </p>
+                </div>
+
+            <a href="index.html">
+                <img id="logo" src="brasao_CTC-horizontal-color-fundo escuro.png"alt="CTC">
+            </a>   
+        </div>
+        
+
+        <div class="menu" id="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="departamentos.html">Departamentos</a></li>
+            <li><a href="nucleos.html">Núcleos</a></li>
+            <li><a href="register.html">Cadastro</a></li>
+            <li><a href="http://localhost/estagio/cadastrados.php">Cadastrados</a></li>
+
+        </div>
+
+        <div id="content">
+        <table border=2px>    
+          <tr>
+            <th>Departamento</th>
+            <th>Núcleos</th>
+          </tr>
+
+          <tr>
+            <th><a href="http://arq.ufsc.br/"> Arquitetura e Urbanismo - ARQ</a></th>
+            <td>
+              <ul>
+                <li>Grupo de Estudos da Habitação – Ghab</li>
+                <li>Grupo Interdisciplinar de Pesq. em Ecologia e Des. Urbano – Gipedu
+                </li>
+                <li>Grupo de Pesquisa da Informática em Arquitetura – Infoarq
+                </li>
+                <li>Grupo de pesquisa Virtuhab
+                </li>
+                <li>Núcleo de Ensino em Projeto
+                </li>
+                <li>Núcleo de Ensino em Tecnologia
+                </li>
+                <li>Núcleo de Ensino em Teoria e História
+                </li>
+                <li>Núcleo de Ensino em Urbanismo e Paisagismo
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th><a href="https://das.ufsc.br/">Automação e Sistemas - DAS</a></th>
+            <td>
+              <ul>
+                <li>Grupo de Pesquisa em Computação Segura e Confiável – GCSeg
+                </li>
+                <li>Grupo de Pesquisa em Controle de Sistemas Mecatrônicos – CSM
+                </li>
+                <li>Grupo de Pesquisa em Controle e Filtragem Robustos – CFRob
+                </li>
+                <li>Grupo de Pesquisa em Educação em Controle e Automação – GPECA
+                </li>
+                <li>Grupo de Pesquisa em Inteligência Artificial – GIA
+                </li>
+                <li>Grupo de Pesq. em Sist. Automatizados de Transp. Urbanos – GruPSAT
+                </li>
+                <li>Grupo de Pesq. em Sist. Din. a Eventos Discretos e Híbridos – GSEDHI
+                </li>
+                <li>Grupo de Pesquisa em Sistemas Distribuídos Tempo Real – SDTR
+                </li>
+                <li>Grupo de Pesquisa em Sistemas Industriais Inteligentes – S2i
+                </li>
+                <li>Grupo de Pesquisa em Sistemas Inteligentes de Manufatura
+                </li>
+                <li>Grupo de Pesquisa em Tecnologias de Controle Aplicado – GPqTCA
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th><a href="https://ine.ufsc.br/">Informática e Estatística - INE</a></th>
+            <td>
+              <ul>
+                <li>
+                  Centro de Ger. de Novos Emp. em Software e Serviços – GeNESS
+
+                </li>
+                <li>Projeto Cyclops Telemedicina
+
+                </li>
+              </ul>
+            </td>
+          </tr>
+
+        </table>
+
+        </div>
+
+        <div class="footer" id="footer">
+            <img src="brasao_CTC-vertical-pb-fundo escuro.png" alt="brasão ctc">
+            <p>Centro Tecnológico da UFSC
+                Campus Universitário Reitor João David Ferreira Lima
+                Rua Delfino Conti, s/n, Trindade
+                Florianópolis - Santa Catarina
+                CEP: 88040-370
+                Secretaria Direção:
+                (48)3721-9339/9340/9343/9837
+                
+                Portaria Hall CTC:
+                (48)3721-9392
+                
+                Horário de Atendimento
+                Segunda à Sexta: 8h às 18h
+                
+            </p>
+        </div>
+    </div>
+</body>
+</html>

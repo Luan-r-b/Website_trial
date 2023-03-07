@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+        <div class="header">
+
+            <div>
+                    <img id="bandeira" src="brasil.jpg" alt="Bandeira brasil">
+                
+                    <p><span id="data"></span></p>
+                    <script>
+                        var dt = new Date();
+                        const month = ["Janeiro","Fevereiro","Março","Abrio","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+                        document.getElementById("data").innerHTML = + (("0"+dt.getDate()).slice(-2)) +" de "+ month[dt.getMonth()] +" de "+ (dt.getFullYear());
+                        </script>
+            </div>
+
+                <div id="info_header">
+                    <p>Horário de Funcionamento: de segunda a sexta das 8h às 18h <img id="phone_symbol" src="phone-solid.svg" alt="Tel"> (48)3721-9339 <img id="envelope_symbol" src="envelope-solid.svg" alt="E-Mail"> <a href="mailto:secretaria.ctc@contato.ufsc.br">secretaria.ctc@contato.ufsc.br</a> </p>
+                </div>
+
+            <a href="index.html">
+                <img id="logo" src="brasao_CTC-horizontal-color-fundo escuro.png"alt="CTC">
+            </a>   
+        </div>
+        
+
+        <div class="menu" id="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="departamentos.html">Departamentos</a></li>
+            <li><a href="nucleos.html">Núcleos</a></li>
+            <li><a href="register.html">Cadastro</a></li>
+            <li><a href="http://localhost/estagio/cadastrados.php">Cadastrados</a></li>
+        </div>
+
+        <div id="content">
+            
+        <table border=2px>
+          <tr>
+            <th>SIGLA</th>
+            <th>NOME</th>
+            <th>CONTATO</th>
+          </tr></tr>
+          <tr>
+          <th>ARQ</th>
+          <td><a href="http://www.arq.ufsc.br//">Arquitetura e Urbanismo</a></td>
+          <td><a href="mailto:arq@contato.ufsc.br">arq@contato.ufsc.br</a></td>
+          <tr></tr>
+          <th>DAS</th>
+          <td><a href="http://www.das.ufsc.br//">Automação e Sistemas</a></td>
+          <td><a href="mailto:das@contato.ufsc.br">das@contato.ufsc.br</a></td>
+          <tr></tr>
+          <th>ECV</th>
+          <td><a href="http://www.ecv.ufsc.br//">Engenharia Civil</a></td>
+          <td><a href="mailto:ecv@contato.ufsc.br">ecv@contato.ufsc.br</a></td>
+          <tr></tr>
+          <th>EPS</th>
+          <td><a href="http://www.deps.ufsc.br/">	Engenharia de Produção e Sistemas</a></td>
+          <td><a href="mailto:eps@contato.ufsc.br">eps@contato.ufsc.br</a></td>
+          <tr></tr>
+          <th>EGC</th>
+          <td><a href="http://www.egc.paginas.ufsc.br//">Engenharia do Conhecimento</a></td>
+          <td><a href="mailto:egc@contato.ufsc.br">egc@contato.ufsc.br</a></td>
+          <tr></tr>
+          <th>EEL</th>
+          <td><a href="http://www.eel.ufsc.br//">	Engenharia Elétrica</a></td>
+          <td><a href="mailto:eel@contato.ufsc.br"></a>eel@contato.ufsc.br</td>
+          <tr></tr>
+          <th>EMC</th>
+          <td><a href="http://www.emc.ufsc.br//">  Engenharia Mecânica</a></td>
+          <td><a href="mailto:emc@contato.ufsc.br">emc@contato.ufsc.br</a></td>
+          <tr></tr>
+          <th>EQA</th>
+          <td><a href="https://eqa.ctc.ufsc.br//">Engenharia Química e de Alimentos</a></td>
+          <td><a href="mailto:eqa@contato.ufsc.br">eqa@contato.ufsc.br</a></td>
+          <tr></tr>
+          <th>ENS</th>
+          <td><a href="http://www.ens.ufsc.br//">Engenharia Sanitária e Ambiental</a></td>
+          <td><a href="mailto:ens@contato.ufsc.br">ens@contato.ufsc.br</a></td>
+          <tr></tr>
+          <th>INE</th>
+          <td><a href="http://www.inf.ufsc.br//">Informática e Estatística</a></td>
+          <td><a href="mailto:ine@contato.ufsc.br">ine@contato.ufsc.br</a></td>
+        </table>
+
+        </div>
+
+        <div class="footer" id="footer">
+            <img src="brasao_CTC-vertical-pb-fundo escuro.png" alt="brasão ctc">
+            <p>Centro Tecnológico da UFSC
+                Campus Universitário Reitor João David Ferreira Lima
+                Rua Delfino Conti, s/n, Trindade
+                Florianópolis - Santa Catarina
+                CEP: 88040-370
+                Secretaria Direção:
+                (48)3721-9339/9340/9343/9837
+                
+                Portaria Hall CTC:
+                (48)3721-9392
+                
+                Horário de Atendimento
+                Segunda à Sexta: 8h às 18h
+                
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+body{
+    background-image: linear-gradient(to left, #0469ce, #61a7ed)   
+}
+
+.page{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    margin-top: -20px;
+}
+
+#bandeira{
+    float: left;
+}
+
+#logo{
+    width: 50%;
+    height: 100%;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#phone_symbol{
+    height: 17px;
+    width: 17px;
+}
+
+#envelope_symbol{
+    height: 17px;
+    width: 17px;
+}
+
+
+.header p #data{
+    clear: both;
+    margin-left: 10px;
+    
+}
+
+#info_header{
+    text-align: center;
+}
+
+
+
+.header{
+    background-color: #7fd7f4;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+
+.menu ul{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #4f97af;
+}
+
+
+
+.menu li a{
+    float: left;
+    display: block;
+    color:black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 60px;    
+}
+
+
+.menu li a:hover{
+    text-shadow: 0px 0px 8px aliceblue;
+}
+
+
+
+.footer{
+    background-color: grey;
+    font-size: 14px;
+    font-weight: 300;
+    border-top: 3px solid; color: black;
+}
+
+.footer p{
+    max-width: 600px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    scroll-margin-inline-end: 0px;
+
+}
+
+.footer img{
+    margin-left: 20px;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+form{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20 px;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+        <div class="header">
+
+            <div>
+                    <img id="bandeira" src="brasil.jpg" alt="Bandeira brasil">
+                
+                    <p><span id="data"></span></p>
+                    <script>
+                        var dt = new Date();
+                        const month = ["Janeiro","Fevereiro","Março","Abrio","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+                        document.getElementById("data").innerHTML = + (("0"+dt.getDate()).slice(-2)) +" de "+ month[dt.getMonth()] +" de "+ (dt.getFullYear());
+                        </script>
+            </div>
+
+                <div id="info_header">
+                    <p>Horário de Funcionamento: de segunda a sexta das 8h às 18h <img id="phone_symbol" src="phone-solid.svg" alt="Tel"> (48)3721-9339 <img id="envelope_symbol" src="envelope-solid.svg" alt="E-Mail"> <a href="mailto:secretaria.ctc@contato.ufsc.br">secretaria.ctc@contato.ufsc.br</a> </p>
+                </div>
+
+            <a href="index.html">
+                <img id="logo" src="brasao_CTC-horizontal-color-fundo escuro.png"alt="CTC">
+            </a>   
+        </div>
+        
+
+        <div class="menu" id="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="departamentos.html">Departamentos</a></li>
+            <li><a href="nucleos.html">Núcleos</a></li>
+            <li><a href="register.html">Cadastro</a></li>
+            <li><a href="http://localhost/estagio/cadastrados.php">Cadastrados</a></li>
+
+
+        </div>
+
+        <div id="content">
+            <p>O Centro Tecnológico (CTC) é uma das 15 unidades de ensino da Universidade Federal de Santa Catarina (UFSC).
+                Criado em 1960, hoje é formado por 10 departamentos, oferecendo 15 cursos de graduação, 14 programas de mestrado,
+                sendo 1 mestrado profissional,  e 12 programas de doutorado, nos quais há um constante empenho na busca  da excelência
+                no ensino, no desenvolvimento de pesquisas e na integração com a comunidade.
+                O CTC conta com:
+            </p>
+
+        <ul>
+            <li>391 Professores</li>
+            <li>110 técnicos-dministrativos</li>
+            <li>6232 alunos de graduação</li>
+            <li>2247 alunos de pós-graduação</li>
+        </ul>
+        <p><small>Dados de Fevereiros de 2019</small></p>
+
+        <p>Confira a cartilha de apresentação do CTC(Versão set/2019), clicando <a href="https://repositorio.ufsc.br/bitstream/handle/123456789/222349/cartilha_ctc_bilingue_web.pdf?sequence=1&isAllowed=y" target="_blank">aqui</a></p>
+
+        <h1>Breve Histórico</h1>
+        <p>Década de 60 - É criada a Escola de Engenharia Industrial(EEI)</p>
+        <p>Década de 70 - A EEI se torna o CTC / Crescimento e fortalecimento da Graduação e da Pós-Graduação</p>
+        <p>Década de 80 - Primeiros cursos de Doutorado</p>
+        <p>Década de 90 - Expansão da Pós-Graduação</p>
+
+        <h1>Missão</h1>
+        <p>Promover o desenvolvimento científico, tecnológico e cultural para a melhoria da qualidade de vida.
+        </p>
+        <h1>Mapa</h1>
+        <p>Centro Tecnológico da UFSC Campus Universitário - Trindade, Florianópolis - Santa Catarina CEP 88040-900
+        </p>
+
+        <a href="https://www.google.com.br/maps/dir//Centro+Tecnol%C3%B3gico+da+UFSC+-+Rua+Delfino+Conti+-+Trindade,+Florian%C3%B3polis+-+SC/@-27.6000464,-48.5520912,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x952739005fe6a97f:0xbac58c3ef1d3885e!2m2!1d-48.5170718!2d-27.6001269!3e0?hl=pt-BR">Exibir Mapa Ampliado</a>
+
+        </div>
+
+        <div class="footer" id="footer">
+            <img src="brasao_CTC-vertical-pb-fundo escuro.png" alt="brasão ctc">
+            <p>Centro Tecnológico da UFSC
+                Campus Universitário Reitor João David Ferreira Lima
+                Rua Delfino Conti, s/n, Trindade
+                Florianópolis - Santa Catarina
+                CEP: 88040-370
+                Secretaria Direção:
+                (48)3721-9339/9340/9343/9837
+                
+                Portaria Hall CTC:
+                (48)3721-9392
+                
+                Horário de Atendimento
+                Segunda à Sexta: 8h às 18h
+                
+            </p>
+        </div>
+    </div>
+</body>
+</html>
